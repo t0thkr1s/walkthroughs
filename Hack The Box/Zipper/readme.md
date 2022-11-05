@@ -51,7 +51,7 @@ zabbix                  [Status: 301, Size: 313, Words: 20, Lines: 10]
 [Status: 200, Size: 10918, Words: 3499, Lines: 376]
 ```
 
-!()[screenshots/zabbix.png]
+![](screenshots/zabbix.png)
 
 ## Zabbix Enumeration
 
@@ -114,9 +114,9 @@ Type help or \? to list commands.
 [zabbix-cli zapper@zabbix-ID]$
 ```
 
-!()[screenshots/config.png]
+![](screenshots/config.png)
 
-!()[screenshots/dashboard.png]
+![](screenshots/dashboard.png)
 
 (https://www.exploit-db.com/exploits/39937)[https://www.exploit-db.com/exploits/39937]
 
